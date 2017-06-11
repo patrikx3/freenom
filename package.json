@@ -1,0 +1,42 @@
+{
+    "name": "p3x-freenom",
+    "version": "1.0.2-6",
+    "corifeus": {
+        "prefix": "p3x-",
+        "publish": true,
+        "type": "p3x",
+        "code": "Mafia"
+    },
+    "license": "MIT",
+    "description": "Promise based Freenom",
+    "main": "src/index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "grunt"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/patrikx3/freenom.git"
+    },
+    "keywords": [
+        "freenom",
+        "promise",
+        "api"
+    ],
+    "author": "Patrik Laszlo <alabard@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/patrikx3/freenom/issues"
+    },
+    "homepage": "https://pages.corifeus.tk/freenom",
+    "devDependencies": {
+        "corifeus-builder": "^1.7.660-16"
+    },
+    "dependencies": {
+        "corifeus-utils": "^1.1.328-18"
+    },
+    "engines": {
+        "node": ">=7.8.0"
+    }
+}

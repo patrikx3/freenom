@@ -7,7 +7,7 @@
 ---
 
  
-# Promise based Freenom
+# Freenom API - Promise and auto renew expiring domains
 
 ## Issues / Support
 This is an open source project. Time is a precious thing, so I have rarely time to give support and fix issues for someone else. I fix a bug, when I have an error that I need. If you got an issue, error or bug, I hope someone will have time to do it for you, otherwise, you are on your own.
@@ -83,13 +83,17 @@ await freenom.domain.delete, {  domainname: domains })
 await freenom.domain.list()
 ```
 
-# Extra functions 
+# The good extra functions 
+
+It automatically renew the free domains (it checks if it is within 14 days expiry and the do it).
 
 ```javascript
+// just a helper, you don't relly need it
 const renewable = await freenom.domain.expiring({
     expiry: '60 days',
 });
 
+// the magic
 await freenom.domain.expiringRenew({
     period: '1Y',
 })
@@ -98,7 +102,7 @@ await freenom.domain.expiringRenew({
 [//]: #@corifeus-footer
 
 ---
-[**P3X-FREENOM**](https://pages.corifeus.tk/freenom) Build v1.0.2-6
+[**P3X-FREENOM**](https://pages.corifeus.tk/freenom) Build v1.0.3-10
 
 [Corifeus](http://www.corifeus.tk) by [Patrik Laszlo](http://patrikx3.tk)
 

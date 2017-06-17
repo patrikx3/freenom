@@ -7,62 +7,11 @@ const start = async() => {
 
     const freenom = await lib.start();
 
-//    await lib.test(freenom.service.ping)
-
-    /*
-    await lib.test(freenom.domain.search, {
-        domainname: 'patrikx3.tk',
-        domaintype: 'FREE'
-    });
-    */
-
-//    await lib.test(freenom.domain.delete, { domainname: 'p3x-ns.tk' })
-
-/*
-    const prefix = 'patrikx3-';
-    const domains = [
-//        prefix + await utils.random.lower(6) + '.tk',
-//        prefix + await utils.random.lower(6) + '.tk',
-        prefix + await utils.random.lower(6) + '.tk',
-    ];
-    const domaintype = 'FREE';
-    const period = '1Y';
-
-    await lib.test(freenom.domain.search, {
-        domainname: domains,
-        domaintype: domaintype,
+    await lib.test(freenom.nameserver.delete, {
+        domainname: 'namesystem.tk',
+        hostname: 'IPV6.NAMESYSTEM.TK',
     })
 
-    await lib.test(freenom.domain.register, {
-        domainname: domains,
-        domaintype: domaintype,
-        period: '1Y',
-        nameserver: [
-            'ns1.namesystem.tk',
-            'ns2.namesystem.tk',
-        ]
-    })
-
-    await lib.test(freenom.domain.delete, {
-        domainname: domains
-    })
-*/
-
-//    await lib.test(freenom.domain.delete, { domainname: 'p3x-ns.tk', test_mode: undefined })
-/*
-    await lib.test(freenom.domain.active, {
-        test_mode: undefined
-    });
-*/
-
-
-/*
-    await lib.test(freenom.domain.expiringRenew, {
-        expiry: '60 days',
-//        test_mode: undefined,
-        //period: '1Y',
-    })
-*/
 
     const ns = await lib.test(freenom.nameserver.list, {
         domainname: 'namesystem.tk'

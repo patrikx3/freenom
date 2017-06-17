@@ -42,14 +42,14 @@ Since, I work full time, I can work only on weekends. Github updates are release
 [//]: #@corifeus-header:end
 
 
-# Freemon API
+# Freenom API
 
 http://www.freenom.com/en/freenom-api.html
 
 I am using these only right now. So no other functions but very easy to add in and Promise based.
 
 ```javascript
-const Freenom = require('p3x-freemon');
+const Freenom = require('p3x-freenom');
 const freenom = await Freenom({
     email: 'p3x@corifeus',
     password: 'password',
@@ -95,17 +95,16 @@ const renewable = await freenom.domain.expiring({
 
 // the magic
 await freenom.domain.expiringRenew({
-    period: '1Y',
+    period: '12M',
 })
 ```
     
 [//]: #@corifeus-footer
 
 ---
-[**P3X-FREENOM**](https://pages.corifeus.tk/freenom) Build v1.0.3-10
+[**P3X-FREENOM**](https://pages.corifeus.tk/freenom) Build v1.0.8-19
 
 [Corifeus](http://www.corifeus.tk) by [Patrik Laszlo](http://patrikx3.tk)
 
 
 [//]: #@corifeus-footer:end
-

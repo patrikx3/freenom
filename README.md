@@ -25,7 +25,7 @@ Besides, when I can support, please note, I cannot support old versions, only th
    
 ### Built on Node 
 ``` 
-v8.1.0
+v8.1.2
 ```   
    
 The ```async``` and ```await``` keywords are required.
@@ -102,7 +102,7 @@ await freenom.domain.expiringRenew({
 [//]: #@corifeus-footer
 
 ---
-[**P3X-FREENOM**](https://pages.corifeus.tk/freenom) Build v1.0.8-19
+[**P3X-FREENOM**](https://pages.corifeus.tk/freenom) Build v1.0.10-25
 
 [Corifeus](http://www.corifeus.tk) by [Patrik Laszlo](http://patrikx3.tk)
 

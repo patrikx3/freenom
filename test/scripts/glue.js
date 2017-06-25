@@ -7,11 +7,12 @@ const start = async() => {
 
     const freenom = await lib.start();
 
+    /*
     await lib.test(freenom.nameserver.delete, {
         domainname: 'namesystem.tk',
         hostname: 'IPV6.NAMESYSTEM.TK',
     })
-
+    */
 
     const ns = await lib.test(freenom.nameserver.list, {
         domainname: 'namesystem.tk'

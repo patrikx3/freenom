@@ -1,6 +1,6 @@
 {
     "name": "p3x-freenom",
-    "version": "1.0.18-41",
+    "version": "1.0.31-47",
     "corifeus": {
         "prefix": "p3x-",
         "publish": true,
@@ -29,12 +29,12 @@
     "bugs": {
         "url": "https://github.com/patrikx3/freenom/issues"
     },
-    "homepage": "https://pages.corifeus.tk/freenom",
+    "homepage": "https://pages.corifeus.com/freenom",
     "devDependencies": {
-        "corifeus-builder": "^1.7.685-33"
+        "corifeus-builder": "^1.7.700-39"
     },
     "dependencies": {
-        "corifeus-utils": "^1.1.346-40"
+        "corifeus-utils": "^1.1.359-54"
     },
     "engines": {
         "node": ">=7.8.0"

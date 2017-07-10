@@ -48,7 +48,7 @@ const freenom = await Freenom({
 await freenom.service.ping();
 
 await freenom.domain.search({
-    domainname: 'patrikx3.tk',
+    domainname: 'patrikx3.com',
     domaintype: 'FREE'
 })
 
@@ -93,8 +93,8 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.tk/freenom) Build v1.0.18-41
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.31-47
 
-[Corifeus](http://www.corifeus.tk) by [Patrik Laszlo](http://patrikx3.tk)
+[Corifeus](http://www.corifeus.com) by [Patrik Laszlo](http://patrikx3.com)
 
 [//]: #@corifeus-footer:end

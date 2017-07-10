@@ -11,7 +11,7 @@ const start = async() => {
 
     /*
     await lib.test(freenom.domain.search, {
-        domainname: 'patrikx3.tk',
+        domainname: 'patrikx3.com',
         domaintype: 'FREE'
     });
     */

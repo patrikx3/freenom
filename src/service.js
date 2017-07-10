@@ -14,7 +14,7 @@ service.domain.active = async (options) => {
      expirationdate: '20170729',
      registrationdate: '20160729',
      domaintype: 'PAID',
-     domainname: 'corifeus.tk' },
+     domainname: 'corifeus.com' },
 
      */
     const domains = {};

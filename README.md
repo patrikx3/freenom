@@ -18,7 +18,7 @@ This is an open source project. Just code.
    
 ### Built on Node 
 ``` 
-v8.1.4
+v8.2.1
 ```   
    
 The ```async``` and ```await``` keywords are required.
@@ -93,7 +93,7 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.36-52
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.37-53
 
 [Corifeus](http://www.corifeus.com) by [Patrik Laszlo](http://patrikx3.com)
 

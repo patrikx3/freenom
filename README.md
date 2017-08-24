@@ -93,7 +93,7 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.91-105
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.94-106
 
 [Corifeus](http://www.corifeus.com) by [Patrik Laszlo](http://patrikx3.com)
 

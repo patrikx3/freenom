@@ -1,12 +1,12 @@
 {
     "name": "p3x-freenom",
-    "version": "1.0.451-269",
+    "version": "1.0.456-270",
     "corifeus": {
         "prefix": "p3x-",
         "publish": true,
         "type": "p3x",
         "code": "Mafia",
-        "nodejs": "v9.8.0"
+        "nodejs": "v9.9.0"
     },
     "license": "MIT",
     "description": "Freenom API - Promise and auto renew expiring domains",
@@ -32,10 +32,10 @@
     },
     "homepage": "https://pages.corifeus.com/freenom",
     "devDependencies": {
-        "corifeus-builder": "^1.7.1254-325"
+        "corifeus-builder": "^1.7.1259-327"
     },
     "dependencies": {
-        "corifeus-utils": "^1.1.869-311"
+        "corifeus-utils": "^1.1.876-313"
     },
     "engines": {
         "node": ">=8.9.0"

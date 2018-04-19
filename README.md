@@ -6,7 +6,7 @@
 
 
  
-# Freenom API - Promise and auto renew expiring domains v1.0.508-293  
+# 🌐 Freenom API - Promise and auto renew expiring domains v1.0.508-293  
 
 This is an open-source project. Star this repository if you like it, or even donate!  Thank you so much! :)
 

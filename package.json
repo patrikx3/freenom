@@ -9,7 +9,7 @@
         "nodejs": "v9.11.1"
     },
     "license": "MIT",
-    "description": "Freenom API - Promise and auto renew expiring domains",
+    "description": "🌐 Freenom API - Promise and auto renew expiring domains",
     "main": "src/index.js",
     "directories": {
         "test": "test"

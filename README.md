@@ -6,7 +6,7 @@
 
 
  
-# 🌐 Freenom API - Promise and auto renew expiring domains v1.0.513-297  
+# 🌐 Freenom API - Promise and auto renew expiring domains v1.0.517-299  
 
 This is an open-source project. Star this repository if you like it, or even donate!  Thank you so much! :)
 
@@ -44,7 +44,7 @@ http://www.freenom.com/en/freenom-api.html
 
 I am using these only right now. So no other functions but very easy to add in and Promise based.
 
-```javascript
+```js
 const Freenom = require('p3x-freenom');
 const freenom = await Freenom({
     email: 'p3x@corifeus',
@@ -83,7 +83,7 @@ await freenom.domain.list()
 
 It automatically renew the free domains (it checks if it is within 14 days expiry and the do it).
 
-```javascript
+```js
 // just a helper, you don't relly need it
 const renewable = await freenom.domain.expiring({
     expiry: '60 days',
@@ -99,7 +99,7 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.513-297 
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.517-299 
 
 [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software) [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) 
 

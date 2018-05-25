@@ -6,7 +6,7 @@
 
 
  
-# 🌐 Freenom API - Promise and auto renew expiring domains v1.0.555-324  
+# 🌐 Freenom API - Promise and auto renew expiring domains v1.0.560-327  
 
 This is an open-source project. Star this repository if you like it, or even donate!  Thank you so much! :)
 
@@ -17,12 +17,12 @@ All my domains (patrikx3.com and corifeus.com) could have errors since I am deve
 
 ### Node Version Requirement 
 ``` 
->=10.0.0 
+>=10.2.1 
 ```  
    
 ### Built on Node 
 ``` 
-v10.1.0
+v10.2.1
 ```   
    
 The ```async``` and ```await``` keywords are required.
@@ -99,7 +99,7 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.555-324 
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v1.0.560-327 
 
 [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software) [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) 
 

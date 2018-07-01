@@ -1,12 +1,12 @@
 {
     "name": "p3x-freenom",
-    "version": "1.0.564-329",
+    "version": "1.0.566-332",
     "corifeus": {
         "prefix": "p3x-",
         "publish": true,
         "type": "p3x",
         "code": "Mafia",
-        "nodejs": "v10.2.1",
+        "nodejs": "v10.5.0",
         "opencollective": false,
         "reponame": "freenom",
         "build": true

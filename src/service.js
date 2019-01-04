@@ -8,7 +8,7 @@ const service = {
 service.domain.active = async (options) => {
 
     const response = await service.domain.list(options);
-//    console.log(response.body.domain.length)
+
     /*
      { status: 'ACTIVE',
      expirationdate: '20170729',

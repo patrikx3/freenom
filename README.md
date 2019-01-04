@@ -50,6 +50,13 @@ https://nodejs.org/en/download/package-manager/
 
 # Freenom API
 
+First, to be able to use the API, you have to be a reseller. I think there is a FEE of 10 EURO to be able to use the API and register via the API, the terms are here:  
+http://www.freenom.com/en/resellers.html  
+http://www.freenom.com/en/termsandconditions.html  
+  
+You have to have a Reseller Account.
+
+The API:  
 http://www.freenom.com/en/freenom-api.html
 
 I am using these only right now. So no other functions but very easy to add in and Promise based.

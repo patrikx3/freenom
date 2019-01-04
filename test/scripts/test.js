@@ -5,25 +5,28 @@ const lib = require('./lib');
 
 const start = async() => {
 
+    const domainTest = 'p3x-' + await utils.random.lower(6) + '.tk'
+
     const freenom = await lib.start();
 
-//    await lib.test(freenom.service.ping)
+    await lib.test(freenom.service.ping)
 
-    /*
     await lib.test(freenom.domain.search, {
-        domainname: 'patrikx3.com',
+        domainname: domainTest,
         domaintype: 'FREE'
     });
-    */
 
-//    await lib.test(freenom.domain.delete, { domainname: 'p3x-ns.tk' })
+    try {
+        await lib.test(freenom.domain.delete, { domainname: domainTest })
+    } catch(e) {
+        console.error('delete domain', e)
+    }
 
-/*
-    const prefix = 'patrikx3-';
     const domains = [
 //        prefix + await utils.random.lower(6) + '.tk',
 //        prefix + await utils.random.lower(6) + '.tk',
-        prefix + await utils.random.lower(6) + '.tk',
+//        prefix + await utils.random.lower(6) + '.tk',
+        domainTest
     ];
     const domaintype = 'FREE';
     const period = '1Y';
@@ -38,34 +41,34 @@ const start = async() => {
         domaintype: domaintype,
         period: '1Y',
         nameserver: [
-            'ns1.namesystem.tk',
-            'ns2.namesystem.tk',
+            'ns1.he.net',
+            'ns2.he.net',
+            'ns3.he.net',
+            'ns4.he.net',
+            'ns5.he.net',
         ]
     })
 
     await lib.test(freenom.domain.delete, {
         domainname: domains
     })
-*/
 
 //    await lib.test(freenom.domain.delete, { domainname: 'p3x-ns.tk', test_mode: undefined })
-/*
+
+
     await lib.test(freenom.domain.active, {
         test_mode: undefined
     });
-*/
 
 
-/*
     await lib.test(freenom.domain.expiringRenew, {
         expiry: '60 days',
 //        test_mode: undefined,
         //period: '1Y',
     })
-*/
 
     const ns = await lib.test(freenom.nameserver.list, {
-        domainname: 'namesystem.tk'
+        domainname: domainTest
     });
 
 

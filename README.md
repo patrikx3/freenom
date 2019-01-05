@@ -13,7 +13,7 @@
 
 
  
-# 🌐 Freenom API - Promise and auto renew expiring domains v2019.1.4-3  
+# 🌐 Freenom API - Promise and auto renew expiring domains v2019.1.5-1  
 
   
 This is an open-source project. Star this repository, if you like it, or even donate! Thank you so much! :)
@@ -93,6 +93,11 @@ await freenom.domain.register({
 
 await freenom.domain.delete, {  domainname: domains })
 
+// if you have no domain in the list, instead of
+// giving an empty list, it shows and error!!!
+// so make sure you have one in the domain list
+// because freenom.domain.expiringRenew will of course
+// throw an error as well!!!
 await freenom.domain.list()
 ```
 
@@ -116,7 +121,7 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v2019.1.4-3 
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v2019.1.5-1 
 
 [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software) [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) 
 

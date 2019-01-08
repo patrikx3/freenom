@@ -10,7 +10,7 @@ const start = async() => {
 
         const freenom = await lib.start();
 
-        await lib.test(freenom.service.ping)
+      /*  await lib.test(freenom.service.ping)
 
         await lib.test(freenom.domain.search, {
             domainname: domainTest,
@@ -22,7 +22,7 @@ const start = async() => {
         } catch(e) {
             console.error('delete domain', e)
         }
-
+*/
         const domains = [
 //        prefix + await utils.random.lower(6) + '.tk',
 //        prefix + await utils.random.lower(6) + '.tk',
@@ -32,21 +32,23 @@ const start = async() => {
         const domaintype = 'FREE';
         const period = '1Y';
 
+/*
         await lib.test(freenom.domain.search, {
             domainname: domains,
             domaintype: domaintype,
         })
+*/
 
         await lib.test(freenom.domain.register, {
             domainname: domains,
             domaintype: domaintype,
-            period: '1Y',
+            period: '3M',
+            owner_id: 'patrikx3',
             nameserver: [
-                'ns1.he.net',
-                'ns2.he.net',
-                'ns3.he.net',
-                'ns4.he.net',
-                'ns5.he.net',
+                'ns1.afraid.org',
+                'ns2.afraid.org',
+                'ns3.afraid.org',
+                'ns4.afraid.org',
             ]
         })
 
@@ -97,7 +99,6 @@ const start = async() => {
             })
         */
 
-        /*
         const renewable = await lib.test(freenom.domain.expiring, {
             expiry: '60 days',
             test_mode: undefined
@@ -114,7 +115,6 @@ const start = async() => {
         })
 
         console.log(result);
-         */
     } catch(e) {
         console.error(e)
     }

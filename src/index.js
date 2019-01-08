@@ -58,7 +58,7 @@ module.exports = async function (options) {
             body.password = password;
 
             if (debug && !body.hasOwnProperty('test_mode')) {
-                body.test_mode = 1;
+               body.test_mode = 1;
             }
 
             let url = `${baseUrl}/${service}/${func}`;

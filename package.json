@@ -1,6 +1,6 @@
 {
     "name": "p3x-freenom",
-    "version": "2019.1.8-6",
+    "version": "2019.1.9-4",
     "corifeus": {
         "prefix": "p3x-",
         "publish": true,

@@ -11,7 +11,7 @@
 
 
  
-# 🌐 Freenom API - Promise and auto renew expiring domains v2019.1.8-6  
+# 🌐 Freenom API - Promise and auto renew expiring domains v2019.1.9-4  
 
   
 🙏 This is an open-source project. Star this repository, if you like it, or even donate to maintain the servers and the development. Thank you so much!
@@ -45,16 +45,16 @@ https://nodejs.org/en/download/package-manager/
                         
 [//]: #@corifeus-header:end
 
+## To be able to register and renew FREE DOMAINS
 
-# Freenom API
+Before, we were able to register and renew with free domains, but by now, these functions are allowed and working ONLY with PAID domains.
 
-First, to be able to use the API, you have to be a reseller. I think there is a FEE of 10 EURO to be able to use the API and register via the API, the terms are here:  
+### Some links
 http://www.freenom.com/en/resellers.html  
 http://www.freenom.com/en/termsandconditions.html  
   
-You have to have a Reseller Account.
+## API
 
-The API:  
 http://www.freenom.com/en/freenom-api.html
 
 I am using these only right now. So no other functions but very easy to add in and Promise based.
@@ -119,7 +119,7 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v2019.1.8-6 
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v2019.1.9-4 
 
 [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software) [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) 
 

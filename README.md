@@ -1,6 +1,6 @@
 [//]: #@corifeus-header
   
-[![NPM](https://nodei.co/npm/p3x-freenom.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/p3x-freenom/)
+[![NPM](https://nodei.co/npm/p3x-freenom.png?downloads=true&downloadRank=true)](https://www.npmjs.com/package/p3x-freenom/)
 
   
 
@@ -11,7 +11,7 @@
 
 
  
-# 🌐 Freenom API - Promise and auto renew expiring domains v2019.4.11  
+# 🌐 Freenom API - Promise and auto renew expiring domains v2019.4.104  
 
   
 🙏 This is an open-source project. Star this repository, if you like it, or even donate to maintain the servers and the development. Thank you so much!
@@ -32,7 +32,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
    
 ### Built on Node 
 ``` 
-v11.14.0
+v12.3.1
 ```   
    
 The ```async``` and ```await``` keywords are required.
@@ -121,7 +121,7 @@ await freenom.domain.expiringRenew({
 
 ---
 
-[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v2019.4.11 
+[**P3X-FREENOM**](https://pages.corifeus.com/freenom) Build v2019.4.104 
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software) 
 

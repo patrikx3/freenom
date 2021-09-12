@@ -1,6 +1,6 @@
 {
     "name": "p3x-freenom",
-    "version": "2021.10.106",
+    "version": "2021.10.110",
     "corifeus": {
         "prefix": "p3x-",
         "publish": true,
@@ -35,10 +35,10 @@
     },
     "homepage": "https://corifeus.com/freenom",
     "devDependencies": {
-        "corifeus-builder": "^2021.10.105"
+        "corifeus-builder": "^2021.10.122"
     },
     "dependencies": {
-        "corifeus-utils": "^2021.10.105"
+        "corifeus-utils": "^2021.10.119"
     },
     "engines": {
         "node": ">=12.13.0"

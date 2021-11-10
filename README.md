@@ -14,8 +14,10 @@
 # 🌐 Freenom API - Promise and auto renew expiring domains v2021.10.148
 
 
+
 # Warning
-2021. November 17. - All patrikx3.com, corifeus.com and sub-domains are offline. There is electricity upgrade. Will come back again on 2021. November 18.
+2021. November 17.
+All patrikx3.com, corifeus.com and sub-domains are offline. Will come back again on 2021. November 18.
 
 **Bugs are evident™ - MATRIX️**
     

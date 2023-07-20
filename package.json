@@ -35,7 +35,7 @@
     },
     "homepage": "https://corifeus.com/freenom",
     "devDependencies": {
-        "corifeus-builder": "^2023.10.125"
+        "corifeus-builder": "^2023.10.129"
     },
     "dependencies": {
         "corifeus-utils": "^2023.10.128"

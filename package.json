@@ -1,12 +1,12 @@
 {
     "name": "p3x-freenom",
-    "version": "2025.4.119",
+    "version": "2025.4.122",
     "corifeus": {
         "prefix": "p3x-",
         "publish": true,
         "type": "p3x",
         "code": "Mafia",
-        "nodejs": "v22.13.0",
+        "nodejs": "v22.13.1",
         "opencollective": false,
         "reponame": "freenom",
         "build": true
@@ -35,10 +35,10 @@
     },
     "homepage": "https://corifeus.com/freenom",
     "devDependencies": {
-        "corifeus-builder": "^2025.4.128"
+        "corifeus-builder": "^2025.4.135"
     },
     "dependencies": {
-        "corifeus-utils": "^2025.4.120"
+        "corifeus-utils": "^2025.4.123"
     },
     "engines": {
         "node": ">=12.13.0"
